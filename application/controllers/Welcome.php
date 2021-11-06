@@ -22,12 +22,4 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
-	public function first_page(){
-		$this->load->helper('url');
-		$this->load->view('first_page');
-	}
-	public function second_page(){
-		$this->load->helper('url');
-		$this->load->view('second_page');
-	}
 }
